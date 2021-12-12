@@ -1,0 +1,43 @@
+.root{
+    -fx-fill: #2C272E;
+    -fx-font-family: "Roboto Light";
+    -fx-font-weight: lighter;
+
+}
+#main{
+    -fx-border-style: none;
+    -fx-background-color: #F6F6F6F6;
+}
+.button{
+    -fx-border-color: #8CA1A5 ;
+    -fx-background-radius: 2em;
+    -fx-alignment: center;
+    -fx-padding: 0.3em 1.2em;
+    -fx-font-weight: 300;
+    -fx-font-size: 16;
+    -fx-border-radius: 2em;
+    -fx-animated: all 0.2s;
+}
+.button:hover{
+    -fx-background-color:#8CA1A5;
+    -fx-border-color: #8CA1A5;
+}
+
+.text-field{
+    -fx-background-color: #F6F6F6F6;
+    -fx-border-color:#8CA1A5 ;
+    -fx-background-radius: 2em;
+    -fx-alignment: center;
+    -fx-padding: 0.3em 1.2em;
+    -fx-font-weight: 300;
+    -fx-border-radius: 2em;
+}
+.label{
+
+}
+.text-area{
+    -fx-background-color: #F6F6F6F6;
+    -fx-border-color:#8CA1A5 ;
+    -fx-alignment: center;
+    -fx-font-weight: 300;
+}
